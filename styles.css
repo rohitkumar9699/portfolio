@@ -176,12 +176,36 @@ nav ul li a {
 }
 
 /* Contact Section */
+#contact {
+  background-color: #120101;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-info {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-info a {
+  color: #0073b1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .profiles {
   display: flex;
   gap: 15px;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .profile-icon {
