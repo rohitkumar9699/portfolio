@@ -23,15 +23,16 @@ nav {
   z-index: 1000;
 }
 
-nav h1 {
-  margin: 0;
-  font-size: 1.5rem;
-}
+
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: x-large;
+  margin-bottom: -5px;
+  margin-top: -5px;
+  gap: 5%;
 }
 
 nav ul li a {
@@ -175,30 +176,22 @@ nav ul li a {
 }
 
 /* Contact Section */
-#contact {
-  padding: 4rem 0;
-  text-align: center;
-}
-
-.contact-info {
-  margin-bottom: 2rem;
-}
-
-.social-links {
+.profiles {
   display: flex;
+  gap: 15px;
   justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.social-links a {
-  color: #ffffff;
-  font-size: 1.5rem;
-  transition: color 0.3s ease;
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
 }
 
-.social-links a:hover {
-  color: #007bff;
+.profile-icon:hover {
+  transform: scale(1.1);
 }
 
 /* Footer */
