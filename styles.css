@@ -41,6 +41,10 @@ nav ul li a {
   font-weight: bold;
 }
 
+nav ul li a:hover {
+  color: #ff0022;
+}
+
 /* Hero Section */
 #hero {
   background: linear-gradient(to right, #333, #1e1e1e);
@@ -140,9 +144,6 @@ nav ul li a {
 
 
 /* Skills Section */
-#skills {
-  padding: 4rem 0;
-}
 
 .skills-grid {
   display: grid;
@@ -159,9 +160,6 @@ nav ul li a {
 
 
 /* Projects Section */
-#projects {
-  padding: 4rem 0;
-}
 
 .projects-grid {
   display: grid;
@@ -234,4 +232,8 @@ footer {
 }
 .edit-link:hover {
     text-decoration: underline;
+}
+
+i{
+  color: red;
 }
